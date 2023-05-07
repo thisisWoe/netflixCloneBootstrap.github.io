@@ -1,0 +1,23 @@
+header{
+    a{
+        margin-left: $margin-x-axes / 2;
+        margin-right: $margin-x-axes / 2;
+        @media screen and (min-width: 768px){
+            margin-left: $margin-x-axes;
+            margin-right: $margin-x-axes;
+        }
+    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+nav{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 1%, rgba(27,27,27,1) 100%);
+    .logo{
+        height: $img-nav-height;
+    }
+}
